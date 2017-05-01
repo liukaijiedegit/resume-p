@@ -1,0 +1,428 @@
+/*个人资料*/
+.box-an .div-lef {
+    -webkit-animation: bounce 5s infinite both;
+
+    /*###########重点这俩行代码？infinite */
+}
+
+.swiper-slide .ani {
+    -webkit-animation: bounceIn 5s 2 both;
+
+}
+
+.boxBou {
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    left: 10%;
+    /*left: 200px;*/
+
+}
+
+.boxBou ul li {
+
+    font-size: 20px;
+    line-height: 20px;
+    /*color: #0f0f0f;*/
+    margin-top: 10px;
+    color: #8c8c8c;
+}
+
+.boxBou ul {
+    float: left;
+
+}
+
+.boxBou .rightLi {
+    padding-left: 10%;
+    /*padding-left: 200px;*/
+
+}
+
+.boxBou .leftLi, .boxBou .rightLi {
+    /*right: 20%;*/
+    text-align: left;
+
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+
+    background: #fff;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+}
+
+.swiper-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: linen;
+/
+}
+
+.boxTop {
+    position: absolute;
+    top: 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.boxTop img {
+    width: 100%;
+    height: 100%;
+    border-radius: 70px;
+}
+
+.swiper-slide h2 {
+    position: absolute;
+    top: 200px;
+
+}
+
+.self li {
+
+    line-height: 35px;
+    height: 35px;
+    font-size: 22px;
+    margin-top: 10px;
+
+}
+
+.self {
+    margin-top: 200px;
+    text-align: center;
+}
+
+/*动画*/
+.skill {
+    /*background-color: red;*/
+    width: 640px;
+    font-size: 16px;
+    position: absolute;
+    bottom: 30px;
+
+}
+
+.skill ul li {
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: 3px;
+}
+
+.professional {
+    position: absolute;
+    top: 30px;
+}
+
+.slide3 {
+    position: relative;
+}
+
+.box-thirdly {
+    width: 700px;
+    height: 100%;
+    background-color: #00cc88;
+}
+
+.box-an {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    top: 80px;
+    position: relative;
+
+}
+
+.box-an .div-lef img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.box-an .div-lef {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+
+}
+
+.swiper-slide .box-an .div-lef {
+    margin-left: 10px;
+}
+
+.head-t {
+    overflow: hidden;
+    width: 800px;
+    height: 350px;
+    border-radius: 50px;
+}
+
+/*轮播*/
+
+#b04 {
+    width: 600px;
+}
+
+#b04 .dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+
+#b04 .dots li {
+
+    display: inline-block;
+
+    width: 10px;
+
+    height: 10px;
+
+    margin: 0 4px;
+
+    text-indent: -999em;
+
+    border: 2px solid #fff;
+
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    opacity: .4;
+
+    -webkit-transition: background .5s, opacity .5s;
+
+    -moz-transition: background .5s, opacity .5s;
+
+    transition: background .5s, opacity .5s;
+
+}
+
+#b04 .dots li.active {
+
+    background: #fff;
+
+    opacity: 1;
+
+}
+
+#b04 .arrow {
+    position: absolute;
+    top: 200px;
+}
+
+#b04 #al {
+    left: 100px;
+}
+
+#b04 #ar {
+    right: 100px;
+}
+
+html, body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+.experience {
+    position: absolute;
+    top: 30px;
+    z-index: 5;
+}
+
+.banner {
+
+    overflow: auto;
+    text-align: center;
+    border-radius: 100px;
+
+}
+
+.banner li {
+    list-style: none;
+}
+
+.banner ul li {
+    float: left;
+    width: 600px;
+    height: 300px;
+    border-radius: 100px;
+
+}
+
+.li-l, .li-r {
+    /*height: 380px;*/
+    /*border-radius: 100px;*/
+    background-color: #ffffff;
+    position: relative;
+}
+
+.banner ul {
+    /*border-radius: 100px;*/
+
+}
+
+.li-l .text-l, .li-r .text-r {
+    top: 30px;
+    position: absolute;
+
+    width: 360px;
+    left: 180px;
+
+}
+
+.li-l .logo-l, .li-r .logo-r {
+    position: absolute;
+
+    width: 150px;
+    height: 150px;
+    left: 20px;
+    top: 80px;
+}
+
+.li-l .text-l h4, .li-r .text-r h4 {
+    line-height: 32px;
+    height: 32px;
+}
+
+.li-l .text-l h3, .li-r .text-r h3 {
+    line-height: 36px;
+    height: 36px;
+}
+
+.li-l .text-l p, .li-r .text-r p {
+    text-align: left;
+    line-height: 20px;
+    height: 20px;
+    text-indent:28px
+
+}
+
+.job, .work {
+    width: 300px;
+    height:240px;
+}
+
+.project {
+    position: absolute;
+    text-outline: none;
+    top: 30px;
+}
+
+.project-job, .job，.work {
+    text-align: center;
+}
+
+.project-job .job, .project-job .work {
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+.project-job .job{
+    margin-left: 20px;
+}
+.project-job .work {
+    margin-left: 20px;
+
+
+}
+.project-job .work-r{
+    margin-right: 20px;
+}
+
+.job a {
+    /*display: inline-block;*/
+    /*width: 100px;*/
+    /*height: 50px;*/
+    /*border-radius: 5px;*/
+    /*border: solid #00cc88 2px;*/
+}
+
+.job h4, .work h4 {
+    margin-top: 15px;
+}
+
+.job p, .work p {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 0 10px;
+    text-indent:28px
+}
+
+.job a {
+    margin-top: 20px;
+}
+
+.myself {
+    position: absolute;
+    top: 60px;
+}
+
+
+
+.character {
+    text-align: center;
+    position: absolute;
+    top: 100px;
+
+}
+
+.character {
+    width: 800px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.character .character-f {
+    width: 50px;
+    height: 50px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    font-size: 20px;
+
+}
+
+/*.li-l .logo-l, .li-r .logo-r {*/
+    /*width: 1rem;*/
+    /*height: 1rem;*/
+/*}*/
